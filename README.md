@@ -14,21 +14,6 @@ Aplikacija podpira celoten delovni tok od prevzema prašičev do prodaje končni
 - **Ubuntu 22.04 LTS** — operacijski sistem strežnika (Contabo VPS)
 - **Cloudflare Tunnel** — javni dostop prek domene mesnine-ilc.com
 
-## Struktura repozitorija
-
-/
-├── sql/
-│   ├── 00_osnove_tabele.sql       # Osnovne tabele
-│   ├── 01_tabele.sql              # Vse tabele
-│   ├── 02_sekvence.sql            # Zaporedja za ID-je
-│   ├── 03_triggerji.sql           # Sprožilci
-│   ├── 04_pogledi.sql             # Pogledi (views)
-│   ├── 05_check_constrainti.sql   # Omejitve
-│   ├── 06_drop_constrainti.sql    # Brisanje omejitev
-│   └── 07_podatki.sql             # Začetni podatki
-├── apex/
-│   └── aplikacija.sql             # APEX export aplikacije
-└── README.md
 
 ## Namestitev
 
@@ -46,12 +31,6 @@ Zaženi SQL skripte v naslednjem vrstnem redu v Oracle SQL Workshop ali SQL*Plus
 @07_podatki.sql
 ```
 
-### 2. APEX aplikacija
-
-1. Odpri Oracle APEX App Builder
-2. Klikni **Import**
-3. Izberi datoteko `apex/aplikacija.sql`
-4. Sledi čarovniku za uvoz
 
 ## Uporabniške vloge
 
