@@ -22,13 +22,13 @@ Aplikacija podpira celoten delovni tok od prevzema prašičev do prodaje končni
 Zaženi SQL skripte v naslednjem vrstnem redu v Oracle SQL Workshop ali SQL*Plus:
 
 ```sql
-@00_osnove_tabele.sql
-@01_tabele.sql
-@02_sekvence.sql
-@03_triggerji.sql
-@04_pogledi.sql
-@05_check_constrainti.sql
-@07_podatki.sql
+00_osnove_tabele.sql
+01_tabele.sql
+02_sekvence.sql
+03_triggerji.sql
+04_pogledi.sql
+05_check_constrainti.sql
+07_podatki.sql
 ```
 
 
